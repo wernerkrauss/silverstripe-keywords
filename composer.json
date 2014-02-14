@@ -1,0 +1,20 @@
+{
+	"name": "arnhoe/metakeywords",
+	"description": "Re-adds the 'MetaKeywords' textarea for SilverStripe 3.1",
+	"type": "silverstripe-module",
+	"homepage": "https://github.com/arnhoe/silverstripe-metakeywords",
+	"keywords": ["silverstripe", "meta", "keywords", "metakeywords"],
+	"authors": [
+		{
+			"name": "Arno Poot",
+			"email": "online@arnop.nl"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/arnhoe/silverstripe-metakeywords/issues"
+	},
+	"require": {
+		"silverstripe/framework": "~3.1",
+		"silverstripe/cms": "~3.1"
+	}
+}
