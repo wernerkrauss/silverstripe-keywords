@@ -1,7 +1,7 @@
 {
 	"name": "arnhoe/metakeywords",
 	"description": "Re-adds the 'MetaKeywords' textarea for SilverStripe 3.1",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"homepage": "https://github.com/ARNHOE/silverstripe-keywords",
 	"keywords": ["silverstripe", "meta", "keywords", "metakeywords"],
 	"authors": [
@@ -15,5 +15,8 @@
 	},
 	"require": {
 		"silverstripe/recipe-cms": "^4.0"
-	}
+	},
+  "autoload": {
+    "ArnoPoot\\MetaKeywords": "src"
+  }
 }
